@@ -1,0 +1,31 @@
+html {
+    background-color: lightblue;
+	
+}
+
+h1 {
+	font-family: monospace;
+	border: 2px solid red;
+    display: block;
+}
+
+.redbox {
+	border: 2px dashed black;
+    display: inline-block;
+    background-color: red;
+    max-width: 100%;
+}
+
+.greenbox {
+	border: 2px dashed black;
+    display: inline-block;
+    background-color: green;
+    max-width: 100%;
+}
+
+.bluebox {
+	border: 2px dashed black;
+    display: inline-block;
+    background-color: blue;
+    max-width: 100%;
+}
