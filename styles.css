@@ -5,6 +5,7 @@ html {
 
 h1 {
 	font-family: monospace;
+    text-align: center;
 	border: 2px solid red;
     display: block;
 }
@@ -26,6 +27,7 @@ h1 {
 .bluebox {
 	border: 2px dashed black;
     display: inline-block;
+    float: right;
     background-color: blue;
     max-width: 100%;
 }
