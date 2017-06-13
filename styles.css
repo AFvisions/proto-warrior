@@ -1,22 +1,36 @@
 html body {
-    background-color: #252525;
+    background-color: #000000;
     font-family: monospace;
-    font-size: 24pt;
-    font-color: white;
+    font-size: 20pt;
+    color: white;
 }
 
-div {background-color: #252525;
+div {
+    background-color: #000000;
+}
+
+body div img .logo {
+    width: 900px;
+    max-width: 900px;
+    display: inline-block;
+    position: center;
+    margin: auto;
 }
 
 html body .topmuscle {
-    width: 1280px;
+    width: 900px;
     display: block;
     margin: auto;
     position: center;
-    max-width: 1280;
 }
 
 body div .menu {
-    display: inline-block;
-    float: left;
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+}
+
+body div .menu li {
+    display: inline;
+    padding: 8px;
 }
