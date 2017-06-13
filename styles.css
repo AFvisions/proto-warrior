@@ -1,39 +1,22 @@
-html {
-    background-color: lightblue;
-	
+html body {
+    background-color: #252525;
+    font-family: monospace;
+    font-size: 24pt;
+    font-color: white;
 }
 
-h1 {
-	font-family: monospace;
-    text-align: center;
-	border: 2px solid red;
-    display: block;
+div {background-color: #252525;
 }
 
-img {
+html body .topmuscle {
+    width: 1280px;
     display: block;
-    width: 80%;
     margin: auto;
- }
-
-.redbox {
-	border: 2px dashed black;
-    display: inline-block;
-    background-color: red;
-    max-width: 100%;
+    position: center;
+    max-width: 1280;
 }
 
-.greenbox {
-	border: 2px dashed black;
+body div .menu {
     display: inline-block;
-    background-color: green;
-    max-width: 100%;
-}
-
-.bluebox {
-	border: 2px dashed black;
-    display: inline-block;
-    float: right;
-    background-color: blue;
-    max-width: 100%;
+    float: left;
 }
