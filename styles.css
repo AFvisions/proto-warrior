@@ -5,32 +5,47 @@ html body {
     color: white;
 }
 
-div {
-    background-color: #000000;
+/** {
+    border: solid white 1px;
+} */
+
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #252525;
+}
+body div .menu {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
 }
 
-body div img .logo {
-    width: 900px;
-    max-width: 900px;
+body div .menu li {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100%;
+    max-width: 960px;
     display: inline-block;
     position: center;
     margin: auto;
 }
 
+.tagline {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 html body .topmuscle {
-    width: 900px;
+    width: 100%;
     display: block;
     margin: auto;
     position: center;
-}
-
-body div .menu {
-    list-style-type: none;
-    margin: 8px;
-    padding: 8px;
-}
-
-body div .menu li {
-    display: inline;
-    padding: 8px;
+    border: 0 0 2px 0 red;
 }
