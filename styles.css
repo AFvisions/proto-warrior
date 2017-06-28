@@ -5,9 +5,9 @@ html body {
     color: white;
 }
 
-* {
+/* * {
     border: solid white 1px;
-} 
+} */
 
 .wrapper {
     max-width: 960px;
@@ -51,19 +51,22 @@ html body .topmuscle {
     border-bottom: 5px solid red
 }
 
-.info {
+/*.info {                     ---Article removed
     width: 100%;
     height: 450px;
     margin: 0 auto;
     background-color: #252525;
     border-bottom: 5px solid red
-}
+} */
 
 .articleinfo {
-    width: 25%;
-    float: left;
+    max-height: 300px;
+    height: 300px;
 }
 
 .bigtub {
     height: 200px;
+    display: block;
+    position: center;
+    margin: auto;
 }
